@@ -38,7 +38,11 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'prompt' \
+  'python' \
+  'git' \
+  'homebrew' \
+  'node'
 
 #
 # Autosuggestions

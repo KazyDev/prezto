@@ -25,3 +25,5 @@ alias acc_test='~/Desktop/AtCoder/acc_test.sh'
 
 autoload bashcompinit && bashcompinit
 complete -C '${PYENV_ROOT}/shims/aws_completer' aws
+
+export PATH=$PATH:${HOME}/.nodebrew/current/bin

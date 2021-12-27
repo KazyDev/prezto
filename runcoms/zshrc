@@ -27,3 +27,6 @@ autoload bashcompinit && bashcompinit
 complete -C '${PYENV_ROOT}/shims/aws_completer' aws
 
 export PATH=$PATH:${HOME}/.nodebrew/current/bin
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+export JAVA_TOOLS_OPTIONS="-Dlog4j2.formatMsgNoLookups=true"

@@ -21,7 +21,7 @@ alias du='du -khs'
 alias emacs='emacs -nw'
 alias em='emacs'
 
-alias acc_test='~/Desktop/AtCoder/acc_test.sh'
+alias y=':'
 
 autoload bashcompinit && bashcompinit
 complete -C '${PYENV_ROOT}/shims/aws_completer' aws

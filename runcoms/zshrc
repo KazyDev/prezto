@@ -12,6 +12,7 @@ fi
 
 # Customize to your needs...
 setopt IGNOREEOF
+bindkey '^D' delete-char
 
 alias ll='ls -ltrhG'
 alias lsd='ls -ltrh $(find $PWD -type f )'
